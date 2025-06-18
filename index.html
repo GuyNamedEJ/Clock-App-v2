@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock App | EJ Milord</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="quote-container">
+        <div id="quote-display">
+          <p id="quote">
+            "First do it, then do it right, then do it better."
+          </p>
+          <p id="author">
+            Addy Osmani
+          </p>
+        </div>
+        <button onclick="getRandomQuote()"><img src="#" alt="Refresh Quote"></button>
+      </div>
+
+
+      <div id="time-display-container">
+        <div id="greeting-display">
+          <img src="#" alt="Time of Day Icon">
+          <p id="greeting">Good morning</p>
+        </div>
+        <div id="time-display">
+          <h1 id="time">11:37</h1>
+          <p id="timezone">BST</p>
+        </div>
+        <h2>In <span id="location">London, UK</span></h2>
+      </div>
+
+      <div id="extra-details">
+        <div id="current-tz-container">
+          <p>Current Timezone</p>
+          <p id="current-timezone"> Europe/London </p>
+        </div>
+
+        <div id="day-of-year-container">
+          <p>Day of the Year</p>
+          <p id="day-of-year"> 295 </p>
+        </div>
+
+        <div id="day-of-week-container">
+          <p>Day of the Week</p>
+          <p id="day-of-week"> 5 </p>
+        </div>
+
+        <div id="week-num-container">
+          <p>Week Number</p>
+          <p id="week-num"> 42 </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
